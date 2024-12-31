@@ -1,5 +1,5 @@
 # Viessmann2HASS
-PyScript permettant d'interfacer Home Assistant avec une chaudière Viessmann via un câble Optolink 
+PyScript permettant d'interfacer Home Assistant avec une chaudière Viessmann équipée d'une régulation compatible avec le protocole VS2 via un câble Optolink. 
 
 La constante PORT est à adapter avec le nom du port série sur lequel est raccordé le câble Optolink.
 
@@ -12,3 +12,5 @@ Le tableau readCmds est à modifier avec les informations que vous souhaiter ré
   - unit : unité
   - name :'Friendly name'
   - entity : ID de l'entité
+
+La réalisation de ce script et l'extraction des adresses ont été effectué avec l'aide du projet https://github.com/sarnau/InsideViessmannVitosoft
